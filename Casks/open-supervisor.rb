@@ -9,25 +9,25 @@ cask "open-supervisor" do
     end
   end
 
-  version "0.2.1"
+  version "0.2.2"
 
   on_macos do
     on_arm do
-      sha256 "0b32ca2c1d2af1bbe92d7b1766fb99e8aae9c62ef093c1506ff2c4a8c8aa262e"
+      sha256 "afd5a23c07d03d7ee6144363c415d4eef038219590b6ead233de19c7db5c4bda"
       url "https://github.com/alsiola/open-supervisor/releases/download/v#{version}/open-supervisor_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "111226db352c971508b5913d76764acd448e5b86ca1299ef597b4cdc0994c23d"
+      sha256 "b0b3943ec3ce9d3a02386d5d5e8b45571c41938af09785ba3c6b98b8568141ac"
       url "https://github.com/alsiola/open-supervisor/releases/download/v#{version}/open-supervisor_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "4bf6b85066ef2209e884d521e2dbbdac68145f07420a2ac146d479f4e068e99e"
+      sha256 "3fd315b374c07015bb324d6789189c324bd90838187c3a7aa73aa9a100b9d401"
       url "https://github.com/alsiola/open-supervisor/releases/download/v#{version}/open-supervisor_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "1632f92c22dbed536afd0e56f6cf8513b0c943ce5aaf4dcb8d180b9401df12cb"
+      sha256 "33f61ef671d3c66f9e86c9b25fe12d1c4903124843eb90b0672f46d6bb3cdd3d"
       url "https://github.com/alsiola/open-supervisor/releases/download/v#{version}/open-supervisor_#{version}_linux_amd64.tar.gz"
     end
   end
